@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{5c7f3177-94a9-4949-8ba4-0dd4f60223d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Overlay">
+      <UniqueIdentifier>{e6a7292f-0f76-488a-a95c-77bcea631db4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CheatSDK">
+      <UniqueIdentifier>{9de0abb2-abe7-4098-a34f-b5bc4876fd1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DriverControl">
+      <UniqueIdentifier>{39cdf761-16de-4c0d-99bb-f2274f539e9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shitmapper">
+      <UniqueIdentifier>{4041feee-744e-498f-b9fc-e7a084cfb0a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Utils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\Overlay.cpp">
+      <Filter>Overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="CheatSDK\CheatSDK.cpp">
+      <Filter>CheatSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="DriverControl\DriverControl.cpp">
+      <Filter>DriverControl</Filter>
+    </ClCompile>
+    <ClCompile Include="shitmapper\intel_driver.cpp">
+      <Filter>shitmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="shitmapper\mapper.cpp">
+      <Filter>shitmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="shitmapper\portable_executable.cpp">
+      <Filter>shitmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="shitmapper\service.cpp">
+      <Filter>shitmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="shitmapper\utils.cpp">
+      <Filter>shitmapper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utils\Utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Xor.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\Overlay.h">
+      <Filter>Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatSDK\CheatSDK.h">
+      <Filter>CheatSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatSDK\CMath.h">
+      <Filter>CheatSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatSDK\Offsets.h">
+      <Filter>CheatSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="DriverControl\DriverControl.h">
+      <Filter>DriverControl</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="DriverControl\driver.hpp">
+      <Filter>DriverControl</Filter>
+    </ClInclude>
+    <ClInclude Include="DriverBytes.h">
+      <Filter>DriverControl</Filter>
+    </ClInclude>
+    <ClInclude Include="shitmapper\intel_driver.hpp">
+      <Filter>shitmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="shitmapper\intel_driver_resource.hpp">
+      <Filter>shitmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="shitmapper\mapper.hpp">
+      <Filter>shitmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="shitmapper\nt.hpp">
+      <Filter>shitmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="shitmapper\portable_executable.hpp">
+      <Filter>shitmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="shitmapper\Process.h">
+      <Filter>shitmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="shitmapper\service.hpp">
+      <Filter>shitmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="shitmapper\utils.hpp">
+      <Filter>shitmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectOverlay.h">
+      <Filter>Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuCfg.h">
+      <Filter>Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Overlay</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
